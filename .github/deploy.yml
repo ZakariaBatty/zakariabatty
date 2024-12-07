@@ -1,7 +1,9 @@
 name: Deploy to cPanel
 
 on:
-   workflow_dispatch:
+   push:
+      branches:
+         - deploy # Update if the default branch is different
 
 jobs:
    build-and-deploy:
@@ -20,11 +22,18 @@ jobs:
          - name: Build project
            run: npm run build
 
+         - name: Debug Output
+           run: |
+              echo "Working Directory:"
+              pwd
+              echo "Files in Directory:"
+              ls -la ./out/
+
          - name: Deploy to cPanel
            uses: SamKirkland/FTP-Deploy-Action@4.3.3
            with:
               server: ${{ secrets.FTP_SERVER }}
               username: ${{ secrets.FTP_USERNAME }}
               password: ${{ secrets.FTP_PASSWORD }}
-              local-dir: ./out/
+              local-dir: ./out/ # Update if the build directory is different
               server-dir: /
