@@ -3,7 +3,7 @@ name: Deploy to cPanel
 on:
    push:
       branches:
-         - deploy # Update if the default branch is different
+         - main # Update if the default branch is different
 
 jobs:
    build-and-deploy:
@@ -35,5 +35,5 @@ jobs:
               server: ${{ secrets.FTP_SERVER }}
               username: ${{ secrets.FTP_USERNAME }}
               password: ${{ secrets.FTP_PASSWORD }}
-              local-dir: ./out/ # Update if the build directory is different
+              local-dir: ./out/
               server-dir: /
