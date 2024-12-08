@@ -1,7 +1,8 @@
 name: Deploy to cPanel
-
 on:
-   workflow_dispatch:
+   push:
+      branches:
+         - main
 
 jobs:
    build-and-deploy:
@@ -24,7 +25,7 @@ jobs:
            uses: SamKirkland/FTP-Deploy-Action@4.3.3
            with:
               server: ${{ secrets.FTP_SERVER }}
-              username: ${{ secrets.FTP_USERNAME }}
+              username: ${{ secrets.FTP_USERNAME}}
               password: ${{ secrets.FTP_PASSWORD }}
               local-dir: ./out/
               server-dir: /
