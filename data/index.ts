@@ -31,8 +31,7 @@ export const gridItems = [
    {
       id: 3,
       title: 'My Tech Stack',
-      description:
-         'Expertise in MERN stack, next.js, and scalable architecture.',
+      description: 'Expertise in MERN stack, scalable architecture.',
       className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
       imgClassName: '',
       titleClassName: 'justify-center',
