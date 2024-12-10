@@ -97,7 +97,7 @@ export const projects = [
          '/express.svg',
          '/flask.svg',
       ],
-      link: '',
+      link: 'http://sahtek.com',
    },
    {
       id: 3,
@@ -105,15 +105,15 @@ export const projects = [
       des: 'Built a search and analysis microservice leveraging Flask and Python for improved accuracy.',
       img: '/p3.svg',
       iconLists: ['/python.svg', '/flask.svg', '/tail.svg'],
-      link: '',
+      link: 'https://dreebz.com/en/explore',
    },
    {
       id: 4,
       title: 'WordPress WooCommerce Store Creation',
-      des: 'Developed feature-rich e-commerce stores and subscription management dashboards.',
+      des: 'Developed feature-rich e-commerce stores and subscription management dashboards. check my other website',
       img: '/p4.svg',
       iconLists: ['/php.svg', '/wp.svg', '/tail.svg', '/mysql.svg'],
-      link: '',
+      link: 'https://devloup.com/',
    },
 ];
 
@@ -134,26 +134,26 @@ export const companies = [
    {
       id: 1,
       name: 'Red Cursor Solutions',
-      img: '/redcursor.svg',
-      nameImg: '/redcursorName.svg',
+      img: '/cloud.svg',
+      nameImg: '/cloudName.svg',
    },
    {
       id: 2,
       name: 'Akwascreation Agency',
-      img: '/akwa.svg',
-      nameImg: '/akwaName.svg',
+      img: '/app.svg',
+      nameImg: '/appName.svg',
    },
    {
       id: 3,
       name: 'Bfdigital',
-      img: '/bfdigital.svg',
-      nameImg: '/bfdigitalName.svg',
+      img: '/host.svg',
+      nameImg: '/hostName.svg',
    },
    {
       id: 4,
       name: 'Ly Assurance',
-      img: '/lyassurance.svg',
-      nameImg: '/lyassuranceName.svg',
+      img: '/s.svg',
+      nameImg: '/streamName.svg',
    },
 ];
 
@@ -178,16 +178,16 @@ export const socialMedia = [
    {
       id: 1,
       img: '/git.svg',
-      link: 'https://github.com/zbatty',
+      link: 'https://github.com/ZakariaBatty',
    },
    {
       id: 2,
       img: '/twit.svg',
-      link: 'https://twitter.com/zbatty',
+      link: 'https://twitter.com/zakariabatty',
    },
    {
       id: 3,
       img: '/link.svg',
-      link: 'https://www.linkedin.com/in/zakaria-batty/',
+      link: 'https://www.linkedin.com/in/zakaria-batty-25399a1a1/',
    },
 ];
