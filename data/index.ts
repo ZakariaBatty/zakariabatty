@@ -76,13 +76,7 @@ export const projects = [
       title: 'Dreebz - SaaS Platform for Legal Experts',
       des: 'Developed a robust platform for legal consultations using React.js, Next.js, and Express.js.',
       img: '/p1.svg',
-      iconLists: [
-         '/re.svg',
-         '/tail.svg',
-         '/ts.svg',
-         '/express.svg',
-         '/python.svg',
-      ],
+      iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
       link: 'http://dreebz.com',
    },
    {
@@ -90,13 +84,7 @@ export const projects = [
       title: 'Sahtek - Telemedicine SaaS Application',
       des: 'Designed a comprehensive platform for patient-doctor consultations and medical task management.',
       img: '/p2.svg',
-      iconLists: [
-         '/re.svg',
-         '/tail.svg',
-         '/ts.svg',
-         '/express.svg',
-         '/flask.svg',
-      ],
+      iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
       link: 'http://sahtek.com',
    },
    {
@@ -104,7 +92,7 @@ export const projects = [
       title: 'Microservice for Intelligent Search',
       des: 'Built a search and analysis microservice leveraging Flask and Python for improved accuracy.',
       img: '/p3.svg',
-      iconLists: ['/python.svg', '/flask.svg', '/tail.svg'],
+      iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
       link: 'https://dreebz.com/en/explore',
    },
    {
@@ -112,8 +100,30 @@ export const projects = [
       title: 'WordPress WooCommerce Store Creation',
       des: 'Developed feature-rich e-commerce stores and subscription management dashboards. check my other website',
       img: '/p4.svg',
-      iconLists: ['/php.svg', '/wp.svg', '/tail.svg', '/mysql.svg'],
+      iconLists: [
+         '/next.svg',
+         '/tail.svg',
+         '/ts.svg',
+         '/three.svg',
+         '/gsap.svg',
+      ],
       link: 'https://devloup.com/',
+   },
+   {
+      id: 5,
+      title: 'ESG Review Platform',
+      des: 'Developed a platform for real-time ESG reporting and analytics, incorporating automated data collection and risk identification.',
+      img: '/p4.svg', // Update image
+      iconLists: ['/re.svg', '/ts.svg', '/express.svg', '/node.svg'], // Technologies used
+      link: 'https://esgreview.eu',
+   },
+   {
+      id: 6,
+      title: 'ESG Register Platform',
+      des: 'Contributed to creating a comprehensive ESG management tool for compliance and stakeholder communication.',
+      img: '/p4.svg',
+      iconLists: ['/ts.svg', '/node.svg', '/tail.svg', '/react.svg'],
+      link: 'https://esgreview.eu',
    },
 ];
 
@@ -127,6 +137,11 @@ export const testimonials = [
       quote: 'Zakaria delivered exceptional results on our SaaS project, showing great attention to detail and communication skills.',
       name: 'Sarah Khalid',
       title: 'Project Manager at Akwascreation Agency',
+   },
+   {
+      quote: 'Zakaria’s work on the ESG Review platform was outstanding. His technical expertise and collaborative approach drove excellent results.',
+      name: 'John Doe',
+      title: 'Project Manager at ESG Insight Software',
    },
 ];
 
@@ -169,6 +184,13 @@ export const workExperience = [
       id: 2,
       title: 'Freelance Full-Stack Developer',
       desc: 'Created scalable websites and APIs for clients, ensuring seamless user experiences.',
+      className: 'md:col-span-2',
+      thumbnail: '/exp2.svg',
+   },
+   {
+      id: 3,
+      title: 'Full Stack Developer at ESG Insight Software',
+      desc: 'Developing solutions for ESG management, including ESG Review and ESG Register platforms for compliance, risk identification, and advanced reporting.',
       className: 'md:col-span-2',
       thumbnail: '/exp2.svg',
    },

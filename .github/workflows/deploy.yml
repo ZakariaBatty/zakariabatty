@@ -19,7 +19,7 @@ jobs:
            run: npm ci
 
          - name: Build project
-           run: npm run build
+           run: npm run build && npm run postbuild
 
          - name: Deploy to cPanel
            uses: SamKirkland/FTP-Deploy-Action@4.3.3
