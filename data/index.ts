@@ -75,24 +75,24 @@ export const projects = [
       id: 1,
       title: 'Dreebz - SaaS Platform for Legal Experts',
       des: 'Developed a robust platform for legal consultations using React.js, Next.js, and Express.js.',
-      img: '/p1.svg',
-      iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+      img: '/AI-Search.png',
+      iconLists: ['/re.svg', '/tail.svg', '/nodejs-icon.svg', '/mysql-2.svg'],
       link: 'http://dreebz.com',
    },
    {
       id: 2,
       title: 'Sahtek - Telemedicine SaaS Application',
       des: 'Designed a comprehensive platform for patient-doctor consultations and medical task management.',
-      img: '/p2.svg',
-      iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
+      img: '/sahtek.png',
+      iconLists: ['/re.svg', '/tail.svg', '/nodejs-icon.svg', '/mysql-2.svg'],
       link: 'http://sahtek.com',
    },
    {
       id: 3,
       title: 'Microservice for Intelligent Search',
       des: 'Built a search and analysis microservice leveraging Flask and Python for improved accuracy.',
-      img: '/p3.svg',
-      iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
+      img: '/ai.png',
+      iconLists: ['/flask.svg', '/mysql-2.svg'],
       link: 'https://dreebz.com/en/explore',
    },
    {
@@ -101,11 +101,10 @@ export const projects = [
       des: 'Developed feature-rich e-commerce stores and subscription management dashboards. check my other website',
       img: '/p4.svg',
       iconLists: [
-         '/next.svg',
-         '/tail.svg',
+         '/woocommerce.svg',
+         '/wordpress-icon-1.svg',
          '/ts.svg',
-         '/three.svg',
-         '/gsap.svg',
+         '/mysql-2.svg',
       ],
       link: 'https://devloup.com/',
    },
@@ -113,16 +112,22 @@ export const projects = [
       id: 5,
       title: 'ESG Review Platform',
       des: 'Developed a platform for real-time ESG reporting and analytics, incorporating automated data collection and risk identification.',
-      img: '/p4.svg', // Update image
-      iconLists: ['/re.svg', '/ts.svg', '/express.svg', '/node.svg'], // Technologies used
+      img: '/esg-data.png', // Update image
+      iconLists: [
+         '/re.svg',
+         '/ts.svg',
+         '/next-1.svg',
+         '/ruby.svg',
+         '/tail.svg',
+      ], // Technologies used
       link: 'https://esgreview.eu',
    },
    {
       id: 6,
       title: 'ESG Register Platform',
       des: 'Contributed to creating a comprehensive ESG management tool for compliance and stakeholder communication.',
-      img: '/p4.svg',
-      iconLists: ['/ts.svg', '/node.svg', '/tail.svg', '/react.svg'],
+      img: '/Consultants.png',
+      iconLists: ['/re.svg', '/ts.svg', '/next-1.svg', '/prisma.svg'],
       link: 'https://esgreview.eu',
    },
 ];
